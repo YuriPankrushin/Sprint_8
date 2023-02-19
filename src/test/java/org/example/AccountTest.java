@@ -8,7 +8,7 @@ import org.junit.Test;
 public class AccountTest {
 
     Account account1 = new Account("Юрий Панкрушин");
-    Account account2 = new Account(" Юрий ");
+    Account account2 = new Account(" Юрий Па ");
     Account account3 = new Account(" Юрий ПанкрушинПанкру ");
     Account account4 = new Account(" Юрий Панкрушин Панкрушин ");
 
