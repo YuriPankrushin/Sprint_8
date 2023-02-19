@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.AccountTest" time="0.237" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.AccountTest" time="0.223" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/13.0.2+8_2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/yuripankrushin/Desktop/PracticumProjects/Sprint8/FinalTask/Sprint_8/target/surefire/surefirebooter7110047988103430470.jar /Users/yuripankrushin/Desktop/PracticumProjects/Sprint8/FinalTask/Sprint_8/target/surefire 2023-02-19T07-16-52_081-jvmRun1 surefire16392117693018119878tmp surefire_011487568722992891870tmp"/>
+    <property name="sun.java.command" value="/Users/yuripankrushin/Desktop/PracticumProjects/Sprint8/FinalTask/Sprint_8/target/surefire/surefirebooter9836436888156051502.jar /Users/yuripankrushin/Desktop/PracticumProjects/Sprint8/FinalTask/Sprint_8/target/surefire 2023-02-19T07-31-11_645-jvmRun1 surefire1693256499641057362tmp surefire_05575188365858152244tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/yuripankrushin/Desktop/PracticumProjects/Sprint8/FinalTask/Sprint_8/target/test-classes:/Users/yuripankrushin/Desktop/PracticumProjects/Sprint8/FinalTask/Sprint_8/target/classes:/Users/yuripankrushin/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/yuripankrushin/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/yuripankrushin/.m2/repository/io/qameta/allure/allure-junit4/2.15.0/allure-junit4-2.15.0.jar:/Users/yuripankrushin/.m2/repository/io/qameta/allure/allure-java-commons/2.15.0/allure-java-commons-2.15.0.jar:/Users/yuripankrushin/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/yuripankrushin/.m2/repository/io/qameta/allure/allure-model/2.15.0/allure-model-2.15.0.jar:"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/yuripankrushin/Desktop/PracticumProjects/Sprint8/FinalTask/Sprint_8/target/surefire/surefirebooter7110047988103430470.jar"/>
+    <property name="surefire.real.class.path" value="/Users/yuripankrushin/Desktop/PracticumProjects/Sprint8/FinalTask/Sprint_8/target/surefire/surefirebooter9836436888156051502.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="13.0.2+8"/>
@@ -54,8 +54,8 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="checkThatNameLessThan3SymbolsReturnsFalse" classname="org.example.AccountTest" time="0.05"/>
-  <testcase name="checkThatNameWithMoreThanOneSpaceInsideReturnsFalse" classname="org.example.AccountTest" time="0.003"/>
-  <testcase name="checkThatNameMoreThan19SymbolsReturnsFalse" classname="org.example.AccountTest" time="0.002"/>
-  <testcase name="checkThatCorrectNameReturnsTrue" classname="org.example.AccountTest" time="0.002"/>
+  <testcase name="checkThatNameLessThan3SymbolsReturnsFalse" classname="org.example.AccountTest" time="0.048"/>
+  <testcase name="checkThatNameWithMoreThanOneSpaceInsideReturnsFalse" classname="org.example.AccountTest" time="0.002"/>
+  <testcase name="checkThatNameMoreThan19SymbolsReturnsFalse" classname="org.example.AccountTest" time="0.001"/>
+  <testcase name="checkThatCorrectNameReturnsTrue" classname="org.example.AccountTest" time="0.001"/>
 </testsuite>
